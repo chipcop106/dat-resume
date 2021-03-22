@@ -1,0 +1,117 @@
+{
+  "heroData": {
+    "greetings": "HELLO, ",
+    "introduction": "I'm Thai Viet Dat",
+    "role": "Javascript Developer",
+    "paragraph": "Passionate about coding and specialize in React & Nextjs.",
+    "button1": "Check my work",
+    "button2": "Contact me"
+  },
+  "aboutData": {
+    "aboutTitle": "About me",
+    "aboutItems": [
+      "I'm a React developer based in Ho Chi Minh city, Vietnam.",
+      "I like to design and build beautiful and functional websites and web applications, taking special care to produce clear and understandable code.",
+      "I love teamwork and good communication, always open to feedback and willing to learn new things.",
+      "In my free time I like to read a good book or play video games."
+    ],
+    "resumeTitle": "Resume",
+    "resumeParagraph": "You can check my resume in the link below.",
+    "resumeButton": "Resume",
+    "resumeLink": "resume/resume-en.pdf",
+    "skillsTitle": "Skills"
+  },
+  "portfolioData": {
+    "portfolioTitle": "Portfolio",
+    "projects": [
+      {
+        "name": "Dolphin - Internal training system",
+        "projectUrl": "https://elearning-mona-dev.herokuapp.com/",
+        "repoUrl": "https://github.com/chipcop106/ElearningNextJs",
+        "imgPath": "projectMedia/e-learning-dolphin.png",
+        "imgAlt": "Dolphin pewview",
+        "summary": "E-learning course for internal training.",
+        "keyFeatures": [
+          "Hybrid static & server rendering",
+          "OAuth sign-in services",
+          "Full responsive",
+          "Custom MUI theme"
+        ],
+        "technologies": [
+          "React",
+          "NextJS",
+          "Restful API",
+          "Material-UI"
+        ]
+      },
+      {
+        "name": "Etalk",
+        "projectUrl": "https://mona-etalk.herokuapp.com/",
+        "repoUrl": "https://github.com/chipcop106/etalk",
+        "imgPath": "projectMedia/etalk.png",
+        "imgAlt": "Etalk website preview",
+        "summary": "Fully responsive CRM product to management booking schedule learning online coach 1v1.",
+        "keyFeatures": [
+          "Restful API",
+          "Booking Calendar",
+          "Report management",
+          "Material-UI"
+        ],
+        "technologies": ["Material UI","React", "NextJS"]
+      },
+      {
+        "name": "Yeah1 News",
+        "projectUrl": "hhttps://yeah1-news.vercel.app/",
+        "repoUrl": "https://github.com/chipcop106/yeah1-news",
+        "imgPath": "projectMedia/yeah1-news.png",
+        "imgAlt": "Synthetic news",
+        "summary": "Synthetic newspaper using Nextjs for Server-Side Rendering, SEO supported",
+        "keyFeatures": [
+          "SEO support",
+          "Chakra UI",
+          "Full responsive",
+          "Dark/Light mode"
+        ],
+        "technologies": ["NextJS", "MongoDB", "Chakra-UI", "Strapi CMS", "GraphQL"]
+      },
+      {
+        "name": "Appnews Vietnam",
+        "projectUrl": "https://www.appnewsvietnam.vn/",
+        "repoUrl": "#",
+        "imgPath": "projectMedia/appnews.png",
+        "imgAlt": "Appnews preview",
+        "summary": "A web app where users can create Cross-platform mobile app built with React Native.",
+        "keyFeatures": [
+          "Microservice",
+          "Setting mobile app",
+          "Preview app directly",
+          "Update OTA"
+        ],
+        "technologies": ["React", "Apollo Graph","GraphQL", "Strapi", "MongoDB", "SocketIO", "NodeJs", "Sailjs"]
+      }
+    ]
+  },
+  "blogData": {
+    "featuredArticle": "Featured Article",
+    "mostRecent": "Most Recent",
+    "button": "More Articles"
+  },
+  "contactData": {
+    "title": "Contact",
+    "p1": "If you are interested in hiring me for your project please use the form below to get in touch. Want to know how I work and what I can offer? Check out my ",
+    "p2": "portfolio",
+    "p3": " and ",
+    "p4": "resumé",
+    "resumeLink": "resume/resume-en.pdf",
+    "subtitle": "You can also find me on the following channels",
+    "formTitle": "Get in touch",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "placeholder": "Feel free to include any details.",
+    "submitButton": "send",
+    "requiredErrorMessage": "Required",
+    "invalidEmailErrorMessage": "Invalid email format"
+  }
+}
