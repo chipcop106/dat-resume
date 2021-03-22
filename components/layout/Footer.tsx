@@ -5,10 +5,7 @@ import { NextLinkComposed } from '../Link';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: theme.spacing(5, 0, 5, 0),
-  },
-  fab: {
-    marginBottom: theme.spacing(2),
+    padding: theme.spacing(2, 0, 2, 0),
   },
 }));
 
@@ -18,18 +15,6 @@ export default function Footer() {
   return (
     <footer className={classes.root}>
       <Box display="flex" flexDirection="column" alignItems="center">
-        <Fab
-          className={classes.fab}
-          color="secondary"
-          size="small"
-          to="/"
-          component={NextLinkComposed}
-          title="Scroll back to top"
-          aria-label="Scroll back to top"
-        >
-          <KeyboardArrowUpIcon />
-        </Fab>
-
         <Typography component="p" variant="h6" align="center" gutterBottom>
           Dat Codero ©2021
         </Typography>

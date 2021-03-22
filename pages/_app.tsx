@@ -7,6 +7,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../components/styles/theme';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
+import '../styles/app.css';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   React.useEffect(() => {

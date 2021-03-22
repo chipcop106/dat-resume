@@ -40,6 +40,10 @@ const useStyles = makeStyles((theme) => ({
   link: {
     padding: '12px 15px',
   },
+  logoImg: {
+    maxWidth: '100px',
+    marginTop: '1rem'
+  }
 }));
 
 interface Props {
@@ -96,9 +100,7 @@ export default function ElevateAppBar() {
           <Container maxWidth="lg">
             <Toolbar className={classes.toolbar} disableGutters>
               <Link className={classes.logo} href="/" variant="button">
-                <Typography variant="h3" color="primary">
-                  K
-                </Typography>
+                <img src="/logo-dat.png" className={classes.logoImg}/>
               </Link>
 
               <Hidden smDown implementation="css">

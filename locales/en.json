@@ -2,7 +2,7 @@
   "heroData": {
     "greetings": "HELLO, ",
     "introduction": "I'm Thai Viet Dat",
-    "role": "Javascript Developer",
+    "role": "Front-end Developer",
     "paragraph": "Passionate about coding and specialize in React & Nextjs.",
     "button1": "Check my work",
     "button2": "Contact me"
@@ -19,7 +19,10 @@
     "resumeParagraph": "You can check my resume in the link below.",
     "resumeButton": "Resume",
     "resumeLink": "resume/resume-en.pdf",
-    "skillsTitle": "Skills"
+    "skillsTitle": "Skills",
+    "languages": "Languages",
+    "frameworks": "Frameworks",
+    "tools": "Tools"
   },
   "portfolioData": {
     "portfolioTitle": "Portfolio",
@@ -45,7 +48,7 @@
         ]
       },
       {
-        "name": "Etalk",
+        "name": "Etalk - E-learning coach 1v1",
         "projectUrl": "https://mona-etalk.herokuapp.com/",
         "repoUrl": "https://github.com/chipcop106/etalk",
         "imgPath": "projectMedia/etalk.png",

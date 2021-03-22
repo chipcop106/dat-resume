@@ -64,6 +64,9 @@ interface AboutData {
   resumeButton: string;
   resumeLink: string;
   skillsTitle: string;
+  frameworks: string;
+  languages: string;
+  tools: string;
 }
 
 export default function About({ aboutData: t }: { aboutData: AboutData }) {
@@ -130,7 +133,7 @@ export default function About({ aboutData: t }: { aboutData: AboutData }) {
           <Grid item xs={12} md={8}>
             <Box className={classes.skillsWrap}>
               <Typography component="h3" variant="h6" gutterBottom color="secondary">
-                Languages
+                {t.languages}
               </Typography>
               <Box className={classes.skills}>
                 {skillIcons.languages.map((skillIcon) => (
@@ -149,7 +152,7 @@ export default function About({ aboutData: t }: { aboutData: AboutData }) {
             </Box>
             <Box className={classes.skillsWrap}>
               <Typography component="h3" variant="h6" gutterBottom color="secondary">
-                Frameworks
+                {t.frameworks}
               </Typography>
               <Box className={classes.skills}>
                 {skillIcons.framework.map((skillIcon) => (
@@ -168,7 +171,7 @@ export default function About({ aboutData: t }: { aboutData: AboutData }) {
             </Box>
             <Box className={classes.skillsWrap}>
               <Typography component="h3" variant="h6" gutterBottom color="secondary">
-                Tools
+                {t.tools}
               </Typography>
               <Box className={classes.skills}>
                 {skillIcons.tools.map((skillIcon) => (
