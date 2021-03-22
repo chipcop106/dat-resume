@@ -1,10 +1,17 @@
+import { Theme } from '@material-ui/core/styles/createMuiTheme';
 import { makeStyles } from '@material-ui/core/styles';
-import { Container, Button, Typography, Grid, useTheme, useMediaQuery } from '@material-ui/core/';
+import {
+  Container,
+  Button,
+  Typography,
+  Grid,
+  useTheme,
+  useMediaQuery,
+} from '@material-ui/core/';
+import { useSpring, animated } from 'react-spring';
 import HeroBackground from './HeroBackground';
 import HeroBracket from './HeroBracket';
 import ProfileImage from './ProfileImage';
-import {useSpring, animated} from 'react-spring'
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -15,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
   wrapper: {
     marginBottom: theme.spacing(7),
-    textAlign: 'center'
+    textAlign: 'center',
   },
   responsiveButtonSize: {
     [theme.breakpoints.down('xs')]: {
@@ -30,8 +37,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   profile: {
-    marginBottom: `2rem`
-  }
+    marginBottom: `2rem`,
+  },
 }));
 
 interface HeroData {
@@ -45,8 +52,10 @@ interface HeroData {
 
 export default function Hero({ heroData: t }: { heroData: HeroData }) {
   const classes = useStyles();
-  const theme = useTheme();
-  const smMediaQuery = useMediaQuery(theme => theme.breakpoints.up('sm'))
+  const myTheme = useTheme();
+  const smMediaQuery = useMediaQuery((theme: Theme) =>
+    theme.breakpoints.up('sm')
+  );
 
   const animateButtonProps = useSpring({
     delay: 1500,
@@ -57,92 +66,104 @@ export default function Hero({ heroData: t }: { heroData: HeroData }) {
     to: {
       opacity: 1,
       transform: 'scale(1)',
-    }
-  })
+    },
+  });
 
-  const createAnimateTextProps = (delay = 0) => {
-    return useSpring({
-      from: {opacity: 0, transform: 'translateY(-50px)'},
+  const CreateAnimateTextProps = (delay = 0) =>
+    useSpring({
+      from: { opacity: 0, transform: 'translateY(-50px)' },
       to: {
         opacity: 1,
         transform: 'translateY(0)',
       },
       config: {
-        duration: 500
+        duration: 500,
       },
-      delay
+      delay,
     });
-  }
 
-  const greetingProps = createAnimateTextProps();
-  const roleProps = createAnimateTextProps(500);
-  const paragraphProps = createAnimateTextProps(1000);
+  const greetingProps = CreateAnimateTextProps();
+  const roleProps = CreateAnimateTextProps(500);
+  const paragraphProps = CreateAnimateTextProps(1000);
 
   const AnimateTypo = animated(Typography);
 
   return (
     <section id="home" className={classes.root}>
-      {
-        smMediaQuery && <HeroBackground color="transparent"/>
-      }
+      {smMediaQuery && <HeroBackground color="transparent" />}
 
       <Container>
-        {
-          smMediaQuery &&    <Grid container spacing={2} justify={`center`} className={classes.profile}>
+        {smMediaQuery && (
+          <Grid
+            container
+            spacing={2}
+            justify="center"
+            className={classes.profile}
+          >
             <Grid item>
-              <HeroBracket type="left" color={theme.palette.secondary.light}/>
+              <HeroBracket
+                type="left"
+                color={myTheme.palette.secondary.light}
+              />
             </Grid>
             <Grid item>
-              <ProfileImage src="/profile-picture.jpg"/>
+              <ProfileImage src="/profile-picture.jpg" />
             </Grid>
             <Grid item>
-              <HeroBracket type="right" color={theme.palette.secondary.light}/>
+              <HeroBracket
+                type="right"
+                color={myTheme.palette.secondary.light}
+              />
             </Grid>
           </Grid>
-        }
+        )}
 
         <div className={classes.wrapper}>
-          <AnimateTypo component="h4" variant="h5" gutterBottom  style={greetingProps}>
+          <AnimateTypo variant="h5" gutterBottom style={greetingProps}>
             <Typography variant="inherit" color="primary">
               {t.greetings}
             </Typography>
             {t.introduction}
           </AnimateTypo>
 
-          <AnimateTypo component="h1" variant="h2" gutterBottom style={roleProps}>
+          <AnimateTypo variant="h2" gutterBottom style={roleProps}>
             {t.role}
           </AnimateTypo>
 
-          <AnimateTypo component="p" variant="subtitle1" color="textSecondary" style={paragraphProps}>
+          <AnimateTypo
+            variant="subtitle1"
+            color="textSecondary"
+            style={paragraphProps}
+          >
             {t.paragraph}
           </AnimateTypo>
         </div>
 
         <animated.div style={animateButtonProps}>
-        <Grid container spacing={2} justify="center" >
-          <Grid item>
-            <Button
-              href="#portfolio"
-              variant="contained"
-              color="primary"
-              size="large"
-              className={classes.responsiveButtonSize}
-            >
-              {t.button1}
-            </Button>
+          <Grid container spacing={2} justify="center">
+            <Grid item>
+              <Button
+                href="#portfolio"
+                variant="contained"
+                color="primary"
+                size="large"
+                className={classes.responsiveButtonSize}
+              >
+                {t.button1}
+              </Button>
+            </Grid>
+            <Grid item>
+              <Button
+                href="#contact"
+                variant="outlined"
+                color="primary"
+                size="large"
+                className={classes.responsiveOutlinedButtonSize}
+              >
+                {t.button2}
+              </Button>
+            </Grid>
           </Grid>
-          <Grid item>
-            <Button
-              href="#contact"
-              variant="outlined"
-              color="primary"
-              size="large"
-              className={classes.responsiveOutlinedButtonSize}
-            >
-              {t.button2}
-            </Button>
-          </Grid>
-        </Grid>
         </animated.div>
       </Container>
     </section>

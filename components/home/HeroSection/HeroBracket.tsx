@@ -12,8 +12,7 @@ type styleType = {
 }
 
 type itemType = {
-  left: styleType;
-  right: styleType
+  [key:string]: styleType;
 }
 
 const distance = 200;

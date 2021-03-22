@@ -19,7 +19,7 @@ const ProfileImage: FC<ImageProps> = ({ src }) => {
 
   return (
     <div className="column profile">
-      <figure className={classes.image}>
+      <figure>
         <img src={src} alt="profile" className={classes.img} />
       </figure>
       <style jsx>{`

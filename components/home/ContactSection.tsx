@@ -167,7 +167,7 @@ export default function Contact({
         <div className={classes.avatarWrapper}>
           <Avatar className={classes.avatar}>
             <Image
-              alt="Kelvin Sánchez"
+              alt="Dat Thai Viet"
               src="/profile-picture.jpg"
               width={56}
               height={56}
