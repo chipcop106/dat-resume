@@ -15,7 +15,7 @@ import {
   CardContent,
   IconButton,
   Avatar,
-  Hidden
+  Hidden,
 } from '@material-ui/core';
 
 import Link from '../Link';
