@@ -3,7 +3,7 @@
     "greetings": "Xin chào, ",
     "introduction": "Tôi là Thái Viết Đạt",
     "role": "Front-end Developer",
-    "paragraph": "Tôi yêu thích việc coding, đặc biệt là làm việc với React.",
+    "paragraph": "Tôi yêu thích việc coding, đặc biệt là làm việc dự án cùng với thư viện React.",
     "button1": "Dự án đã làm",
     "button2": "Liên hệ tôi"
   },
@@ -36,16 +36,11 @@
         "summary": "Hệ thống các khóa học trực tuyến, đào tạo nhân viên nội bộ.",
         "keyFeatures": [
           "Hybrid static & server rendering",
-          "OAuth sign-in services",
-          "Full responsive",
-          "Custom MUI theme"
+          "Xác thực đăng nhập bằng OAuth",
+          "Responsive đầy đủ trên mọi thiệt bị",
+          "Custom giao diện MUI"
         ],
-        "technologies": [
-          "React",
-          "NextJS",
-          "Restful API",
-          "Material-UI"
-        ]
+        "technologies": ["React", "NextJS", "Restful API", "Material-UI"]
       },
       {
         "name": "Etalk - Hệ thống học trực tuyến 1v1",
@@ -56,26 +51,92 @@
         "summary": "Hệ thống quản lý, đặt lịch học online 1v1 với giáo viên bản xứ.",
         "keyFeatures": [
           "Restful API",
-          "Booking Calendar",
-          "Report management",
-          "Material-UI"
+          "Đặt lịch hẹn, đặt lịch dạy giáo viên",
+          "Quản lý lịch, báo cáo",
+          "Giao diện Material-UI"
         ],
-        "technologies": ["Material UI","React", "NextJS"]
+        "technologies": ["Material UI", "React", "NextJS"]
+      },
+      {
+        "name": "Mona eLMS - Phần mềm quản lý trung tâm ngoại ngữ",
+        "projectUrl": "https://mona.media/thiet-ke-phan-mem-quan-ly-truong-hoc-trung-tam-anh-van/",
+        "repoUrl": "https://github.com/chipcop106/pmsmona",
+        "imgPath": "projectMedia/mona-elms.jpg",
+        "imgAlt": "Mona PMS",
+        "summary": "Web app quản lý trung tâm ngoại ngữ, hệ thống làm bài tập, chấm bài, thi trắc nghiệm và tự luận cho học viên / giáo viên",
+        "keyFeatures": [
+          "Hệ thống làm bài tập, chấm bài",
+          "Bán khóa học, thi test",
+          "Quản lý học viên",
+          "Quản lý nhiều chi nhánh"
+        ],
+        "technologies": [
+          "HTMl/CSS/Javascript",
+          "DotNet",
+          "Bootstrap 4"
+        ]
+      },
+      {
+        "name": "Mona PMS - Phầm mềm quản lý dự án",
+        "projectUrl": "https://mona.media/phan-mem-quan-ly-du-an-khach-hang/",
+        "repoUrl": "https://github.com/chipcop106/pmsmona",
+        "imgPath": "projectMedia/mona-pms.jpg",
+        "imgAlt": "Mona PMS",
+        "summary": "Ứng dụng web / mobile để quản lý dự án cho khách hàng của công ty, theo dõi tiến độ công việc của dự án.",
+        "keyFeatures": [
+          "Hỗ trợ đã nền tảng Android / Ios",
+          "Hỗ trợ phiên bản WebApp"
+        ],
+        "technologies": [
+          "React",
+          "React Native",
+          "DotNet",
+          "Restful API",
+          "Bootstrap 4"
+        ]
+      },
+      {
+        "name": "Mona House - Phầm mềm quản lý phòng trọ",
+        "projectUrl": "https://apps.apple.com/vn/app/mona-house/id1534988493?l=vi",
+        "repoUrl": "https://github.com/chipcop106/pmsmona",
+        "imgPath": "projectMedia/mona-house.jpg",
+        "imgAlt": "Mona house",
+        "summary": "Ứng dụng web / mobile để quản lý phòng trọ cho thuê, quản lý khách hàng.",
+        "keyFeatures": [
+          "Hỗ trợ đã nền tảng Android / Ios",
+          "Hỗ trợ phiên bản WebApp",
+          "Quản lý hóa đơn điện nước",
+          "Quản lý khách hàng",
+          "Quản lý chi phí phòng"
+        ],
+        "technologies": [
+          "React",
+          "React Native",
+          "DotNet",
+          "Restful API",
+          "UI Kitten"
+        ]
       },
       {
         "name": "Yeah1 News - Trang tin tức tổng hợp",
-        "projectUrl": "hhttps://yeah1-news.vercel.app/",
+        "projectUrl": "https://yeah1-news.vercel.app/",
         "repoUrl": "https://github.com/chipcop106/yeah1-news",
         "imgPath": "projectMedia/yeah1-news.png",
         "imgAlt": "Synthetic news",
         "summary": "Trang tin tức tổng hợp, tối ưu SEO.",
         "keyFeatures": [
-          "SEO support",
+          "Tối ưu SEO",
           "Chakra UI",
-          "Full responsive",
-          "Dark/Light mode"
+          "Tối ưu responsive",
+          "Phiên bản Dark / Light"
         ],
-        "technologies": ["NextJS", "MongoDB", "Chakra-UI", "Strapi CMS", "GraphQL"]
+        "technologies": [
+          "NextJS",
+          "MongoDB",
+          "Chakra-UI",
+          "Strapi CMS",
+          "GraphQL"
+        ]
       },
       {
         "name": "Appnews Vietnam",
@@ -85,12 +146,24 @@
         "imgAlt": "Appnews preview",
         "summary": "Nền tảng website cho phép xây dựng các ứng dụng di động đa nền tảng trên nền web",
         "keyFeatures": [
-          "Microservice",
-          "Setting mobile app",
-          "Preview app directly",
-          "Update OTA"
+          "Kiến trúc Microservice",
+          "Cấu hình thiết lập giao diện Mobile",
+          "Xem trước giao diện trực tiếp trên web",
+          "Cập nhật phiên bản bằng OTA (Over-the-air)"
         ],
-        "technologies": ["React", "Apollo Graph","GraphQL", "Strapi", "MongoDB", "SocketIO", "NodeJs", "Sailjs"]
+        "technologies": [
+          "React",
+          "Apollo Graph",
+          "GraphQL",
+          "Strapi",
+          "MongoDB",
+          "SocketIO",
+          "NodeJs",
+          "Sailjs",
+          "React Native",
+          "Expo",
+          "Firebase"
+        ]
       }
     ]
   },

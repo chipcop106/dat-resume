@@ -3,7 +3,6 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-
 import theme from '../components/styles/theme';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
@@ -21,7 +20,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Kelvin Sánchez Portfolio</title>
+        <title>Đạt's Portfolio</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
@@ -29,9 +28,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Navbar />
-        <Component {...pageProps} />
-        <Footer />
+          <Navbar />
+          <Component {...pageProps} />
+          <Footer />
       </ThemeProvider>
     </>
   );

@@ -5,6 +5,8 @@ import AboutSection from '../components/home/AboutSection';
 import PortfolioSection from '../components/home/PortfolioSection';
 import BlogSection from '../components/home/BlogSection';
 import ContactSection from '../components/home/ContactSection';
+import React from 'react';
+import dynamic from 'next/dynamic';
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const response = await import(`../locales/${locale}.json`);
@@ -25,10 +27,10 @@ export default function Index({
   const metaInfo = {
     title: 'Dat Thai Viet | Web Developer',
     description:
-      'Dat Thai Viet is a full stack developer, experienced in creating beautiful and functional websites and web applications.',
-    url: 'https://dat-resume.vercel.app/',
+      'Dat Thai Viet is a web developer, experienced in creating beautiful and functional websites and web applications.',
+    url: 'https://datblog.me',
     previewImage:
-      'https://user-images.githubusercontent.com/4708484/93688063-050a8980-fa91-11ea-89ca-3530a9038393.png',
+      '/ms-icon-150x150.png',
   };
 
   const { title, description, url, previewImage } = metaInfo;
