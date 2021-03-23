@@ -32,15 +32,15 @@ const useStyles = makeStyles((theme) => ({
   skillsWrap: {
     marginBottom: '1rem',
     '&:last-child': {
-      marginBottom: 0
-    }
+      marginBottom: 0,
+    },
   },
   skills: {
     display: 'flex',
     flexWrap: 'wrap',
     fontSize: '4rem',
     marginTop: '1rem',
-    paddingLeft: '1rem'
+    paddingLeft: '1rem',
   },
   skillIcon: {
     fontSize: '1rem',
@@ -71,7 +71,6 @@ interface AboutData {
 
 export default function About({ aboutData: t }: { aboutData: AboutData }) {
   const classes = useStyles();
-
 
   return (
     <section id="about" className={classes.root}>
@@ -132,57 +131,60 @@ export default function About({ aboutData: t }: { aboutData: AboutData }) {
 
           <Grid item xs={12} md={8}>
             <Box className={classes.skillsWrap}>
-              <Typography component="h3" variant="h6" gutterBottom color="secondary">
+              <Typography
+                component="h3"
+                variant="h6"
+                gutterBottom
+                color="secondary"
+              >
                 {t.languages}
               </Typography>
               <Box className={classes.skills}>
                 {skillIcons.languages.map((skillIcon) => (
                   <div key={skillIcon.label} className={classes.skillIcon}>
                     <Grid container spacing={1}>
-                      <Grid item>
-                        {skillIcon.icon}
-                      </Grid>
-                      <Grid item>
-                        {skillIcon.label}
-                      </Grid>
+                      <Grid item>{skillIcon.icon}</Grid>
+                      <Grid item>{skillIcon.label}</Grid>
                     </Grid>
                   </div>
                 ))}
               </Box>
             </Box>
             <Box className={classes.skillsWrap}>
-              <Typography component="h3" variant="h6" gutterBottom color="secondary">
+              <Typography
+                component="h3"
+                variant="h6"
+                gutterBottom
+                color="secondary"
+              >
                 {t.frameworks}
               </Typography>
               <Box className={classes.skills}>
                 {skillIcons.framework.map((skillIcon) => (
                   <div key={skillIcon.label} className={classes.skillIcon}>
                     <Grid container spacing={1}>
-                      <Grid item>
-                        {skillIcon.icon}
-                      </Grid>
-                      <Grid item>
-                        {skillIcon.label}
-                      </Grid>
+                      <Grid item>{skillIcon.icon}</Grid>
+                      <Grid item>{skillIcon.label}</Grid>
                     </Grid>
                   </div>
                 ))}
               </Box>
             </Box>
             <Box className={classes.skillsWrap}>
-              <Typography component="h3" variant="h6" gutterBottom color="secondary">
+              <Typography
+                component="h3"
+                variant="h6"
+                gutterBottom
+                color="secondary"
+              >
                 {t.tools}
               </Typography>
               <Box className={classes.skills}>
                 {skillIcons.tools.map((skillIcon) => (
                   <div key={skillIcon.label} className={classes.skillIcon}>
                     <Grid container spacing={1}>
-                      <Grid item>
-                        {skillIcon.icon}
-                      </Grid>
-                      <Grid item>
-                        {skillIcon.label}
-                      </Grid>
+                      <Grid item>{skillIcon.icon}</Grid>
+                      <Grid item>{skillIcon.label}</Grid>
                     </Grid>
                   </div>
                 ))}

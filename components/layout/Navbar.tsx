@@ -5,7 +5,6 @@ import {
   Toolbar,
   useScrollTrigger,
   Slide,
-  Typography,
   Hidden,
   IconButton,
   Container,
@@ -14,7 +13,6 @@ import {
   Menu as MenuIcon,
   Home as HomeIcon,
   Work as WorkIcon,
-  Assignment as AssignmentIcon,
   Mail as MailIcon,
   PermIdentity as PermIdentityIcon,
 } from '@material-ui/icons';
@@ -37,14 +35,14 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: 'none !important',
     flexGrow: 1,
     display: 'flex',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   link: {
     padding: '12px 15px',
   },
   logoImg: {
     maxWidth: '100px',
-  }
+  },
 }));
 
 interface Props {
@@ -101,7 +99,7 @@ export default function ElevateAppBar() {
           <Container maxWidth="lg">
             <Toolbar className={classes.toolbar} disableGutters>
               <Link className={classes.logo} href="/" variant="button">
-                <img src="/logo-dat.png" className={classes.logoImg}/>
+                <img src="/logo-dat.png" className={classes.logoImg} width="100px" height="47px" alt="logo"/>
               </Link>
 
               <Hidden smDown implementation="css">

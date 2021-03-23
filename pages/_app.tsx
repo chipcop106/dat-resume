@@ -20,7 +20,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Đạt's Portfolio</title>
+        <title>Đạt Portfolio</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
@@ -28,9 +28,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-          <Navbar />
-          <Component {...pageProps} />
-          <Footer />
+        <Navbar />
+        <Component {...pageProps} />
+        <Footer />
       </ThemeProvider>
     </>
   );

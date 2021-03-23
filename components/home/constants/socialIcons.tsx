@@ -30,7 +30,7 @@ const socialIcons = [
     ),
     label: 'LinkedIn',
     href: 'https://www.linkedin.com/in/vietdat106',
-  }
+  },
 ];
 
 export default socialIcons;

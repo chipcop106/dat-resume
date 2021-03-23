@@ -3,10 +3,7 @@ import { GetStaticProps } from 'next';
 import HeroSection from '../components/home/HeroSection';
 import AboutSection from '../components/home/AboutSection';
 import PortfolioSection from '../components/home/PortfolioSection';
-import BlogSection from '../components/home/BlogSection';
 import ContactSection from '../components/home/ContactSection';
-import React from 'react';
-import dynamic from 'next/dynamic';
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const response = await import(`../locales/${locale}.json`);
@@ -23,14 +20,13 @@ export default function Index({
 }: {
   content: typeof import('../locales/en.json');
 }) {
-  const { heroData, aboutData, portfolioData, blogData, contactData } = content;
+  const { heroData, aboutData, portfolioData, contactData } = content;
   const metaInfo = {
     title: 'Dat Thai Viet | Web Developer',
     description:
       'Dat Thai Viet is a web developer, experienced in creating beautiful and functional websites and web applications.',
     url: 'https://datblog.me',
-    previewImage:
-      '/ms-icon-150x150.png',
+    previewImage: '/ms-icon-150x150.png',
   };
 
   const { title, description, url, previewImage } = metaInfo;
@@ -58,7 +54,6 @@ export default function Index({
       <HeroSection heroData={heroData} />
       <AboutSection aboutData={aboutData} />
       <PortfolioSection portfolioData={portfolioData} />
-      {/*<BlogSection blogData={blogData} />*/}
       <ContactSection contactData={contactData} />
     </>
   );

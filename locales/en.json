@@ -58,7 +58,7 @@
         "technologies": ["Material UI", "React", "NextJS"]
       },
       {
-        "name": "Mona eLMS - Phần mềm quản lý trung tâm ngoại ngữ",
+        "name": "Mona eLMS - English center management",
         "projectUrl": "https://mona.media/thiet-ke-phan-mem-quan-ly-truong-hoc-trung-tam-anh-van/",
         "repoUrl": "https://github.com/chipcop106/pmsmona",
         "imgPath": "projectMedia/mona-elms.jpg",
@@ -78,7 +78,7 @@
       },
       {
         "name": "Mona PMS - Project management system",
-        "projectUrl": "http://quanly.mona.media/",
+        "projectUrl": "https://qr-creator.com/mobi/i8soKSkottLXL8hJrNRLz89Pz0nVS87P1S8uyS9K1U8sKCjWT0ktSczMKbbPTLEFyujl5uclBhTlZ6UmlzjnZKbmlcTBzACp1gMSUCPK8kAi-iD1ugW5xfqZKYamBgamphYWxmb2ObZlmeRrhAIA",
         "repoUrl": "https://github.com/chipcop106/pmsmona",
         "imgPath": "projectMedia/mona-pms.jpg",
         "imgAlt": "Mona PMS",
@@ -95,7 +95,7 @@
       {
         "name": "Mona House - Real estate management system",
         "projectUrl": "https://apps.apple.com/vn/app/mona-house/id1534988493?l=vi",
-        "repoUrl": "https://github.com/chipcop106/pmsmona",
+        "repoUrl": "https://github.com/chipcop106/MonaHouse",
         "imgPath": "projectMedia/mona-house.jpg",
         "imgAlt": "Mona house",
         "summary": "Web/mobile application to manage accommodation and rentals, manage customers.",
@@ -174,7 +174,7 @@
     "p1": "If you are interested in hiring me for your project please use the form below to get in touch. Want to know how I work and what I can offer? Check out my ",
     "p2": "portfolio",
     "p3": " and ",
-    "p4": "resumé",
+    "p4": "resume",
     "resumeLink": "resume/resume-en.pdf",
     "subtitle": "You can also find me on the following channels",
     "formTitle": "Get in touch",
