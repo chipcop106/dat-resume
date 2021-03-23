@@ -7,7 +7,8 @@ import {
   Slide,
   Hidden,
   IconButton,
-  Container, Typography
+  Container,
+  Typography,
 } from '@material-ui/core/';
 import {
   Menu as MenuIcon,
@@ -48,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     height: 0,
     fontSize: '1px',
-  }
+  },
 }));
 
 interface Props {
@@ -105,8 +106,16 @@ export default function ElevateAppBar() {
           <Container maxWidth="lg">
             <Toolbar className={classes.toolbar} disableGutters>
               <Link className={classes.logo} href="/" variant="button">
-                <img src="/logo-dat.png" className={classes.logoImg} width="100px" height="47px" alt="logo"/>
-                <Typography component="h1" className={classes.titleH1}>Thai Viet Dat | Web developer resume</Typography>
+                <img
+                  src="/logo-dat.png"
+                  className={classes.logoImg}
+                  width="100px"
+                  height="47px"
+                  alt="logo"
+                />
+                <Typography component="h1" className={classes.titleH1}>
+                  Thai Viet Dat | Web developer resume
+                </Typography>
               </Link>
 
               <Hidden smDown implementation="css">

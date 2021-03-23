@@ -12,7 +12,6 @@ import { useSpring, animated } from 'react-spring';
 import HeroBackground from './HeroBackground';
 import HeroBracket from './HeroBracket';
 import ProfileImage from './ProfileImage';
-import Link from '../../Link';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -129,7 +128,14 @@ export default function Hero({ heroData: t }: { heroData: HeroData }) {
         )}
 
         <div className={classes.wrapper}>
-          <AnimateTypo component="h3" variant="h5" gutterBottom style={greetingProps}>
+          <AnimateTypo
+            variant="h5"
+            variantMapping={{
+              h5: 'h3',
+            }}
+            gutterBottom
+            style={greetingProps}
+          >
             <Typography variant="inherit" color="primary">
               {t.greetings}
             </Typography>
@@ -142,6 +148,9 @@ export default function Hero({ heroData: t }: { heroData: HeroData }) {
 
           <AnimateTypo
             variant="subtitle1"
+            variantMapping={{
+              subtitle1: 'h3',
+            }}
             color="textSecondary"
             style={paragraphProps}
           >
