@@ -131,6 +131,13 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@crello/react-lottie@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@crello/react-lottie/-/react-lottie-0.0.11.tgz#1d581000b9fd98fdc490aac23458e19141db3861"
+  integrity sha512-V+U50f2k1pRBpfVyHEUc3A+L9bwQnQxuxRZqP5w/mKcTlc9h8mmuYOI5gh3S6VAUrUhzyIE1NgN/pHHU0EhBNA==
+  dependencies:
+    lottie-web "^5.7.3"
+
 "@emotion/hash@^0.8.0":
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
@@ -354,6 +361,13 @@
   version "15.7.3"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+
+"@types/react-lottie@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@types/react-lottie/-/react-lottie-1.2.5.tgz#659322961de534227ba354109342cad967d98841"
+  integrity sha512-g5c7r0VN8g0hLsFEtR71ZFDWDp6niY4D/7llcAcLjV3LpaoyANmaQ9jispskWpkAUP+NYQcFllMtoGIWUM6VRw==
+  dependencies:
+    "@types/react" "*"
 
 "@types/react-transition-group@^4.2.0":
   version "4.4.1"
@@ -2358,6 +2372,11 @@ loose-envify@^1.1.0, loose-envify@^1.4.0:
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
+
+lottie-web@^5.7.3:
+  version "5.7.7"
+  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.7.7.tgz#077c705d5c82b33a421618c529fccebd69a111fd"
+  integrity sha512-dAUrMX5BRxP7dr+qDWzablhGY6SqXztCS46sW11wjuzExQKZl5GLX2yMGGqg4AkdjgfjetndcU+VR1xoLhlkpA==
 
 lru-cache@^6.0.0:
   version "6.0.0"

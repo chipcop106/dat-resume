@@ -36,6 +36,7 @@ export default function LanguageSelector() {
     setAnchorEl(null);
     router.push(router.pathname, router.asPath, {
       locale: event.currentTarget.lang,
+      scroll: false,
     });
   };
 

@@ -40,6 +40,7 @@ const HeroBracket:FC<BracketProps> = ({ type, color }) => {
                         font-size: 15em;
                         -webkit-animation: move 1s;
                         animation: move 1s;
+                        user-select: none;
                     }
                     @keyframes move {
                         from {

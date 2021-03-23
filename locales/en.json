@@ -40,12 +40,7 @@
           "Full responsive",
           "Custom MUI theme"
         ],
-        "technologies": [
-          "React",
-          "NextJS",
-          "Restful API",
-          "Material-UI"
-        ]
+        "technologies": ["React", "NextJS", "Restful API", "Material-UI"]
       },
       {
         "name": "Etalk - E-learning coach 1v1",
@@ -60,11 +55,68 @@
           "Report management",
           "Material-UI"
         ],
-        "technologies": ["Material UI","React", "NextJS"]
+        "technologies": ["Material UI", "React", "NextJS"]
+      },
+      {
+        "name": "Mona eLMS - Phần mềm quản lý trung tâm ngoại ngữ",
+        "projectUrl": "https://mona.media/thiet-ke-phan-mem-quan-ly-truong-hoc-trung-tam-anh-van/",
+        "repoUrl": "https://github.com/chipcop106/pmsmona",
+        "imgPath": "projectMedia/mona-elms.jpg",
+        "imgAlt": "Mona eLMS",
+        "summary": "Web application for managing English centers, homework system, marking tests multiple choice tests and essays for students / teachers",
+        "keyFeatures": [
+          "Exercises and test exam system",
+          "Sell online course",
+          "Student management",
+          "Branch management"
+        ],
+        "technologies": [
+          "HTMl/CSS/Javascript",
+          "DotNet",
+          "Bootstrap 4"
+        ]
+      },
+      {
+        "name": "Mona PMS - Project management system",
+        "projectUrl": "http://quanly.mona.media/",
+        "repoUrl": "https://github.com/chipcop106/pmsmona",
+        "imgPath": "projectMedia/mona-pms.jpg",
+        "imgAlt": "Mona PMS",
+        "summary": "Web/mobile application for project management for corporate clients, tracking project work progress.",
+        "keyFeatures": ["Cross-platform", "Web version supported"],
+        "technologies": [
+          "React",
+          "React Native",
+          "DotNet",
+          "Restful API",
+          "Bootstrap 4"
+        ]
+      },
+      {
+        "name": "Mona House - Real estate management system",
+        "projectUrl": "https://apps.apple.com/vn/app/mona-house/id1534988493?l=vi",
+        "repoUrl": "https://github.com/chipcop106/pmsmona",
+        "imgPath": "projectMedia/mona-house.jpg",
+        "imgAlt": "Mona house",
+        "summary": "Web/mobile application to manage accommodation and rentals, manage customers.",
+        "keyFeatures": [
+          "Cross-platform Android / IOS",
+          "Web version support",
+          "Electrict / Water bill management",
+          "Customer management",
+          "Room management"
+        ],
+        "technologies": [
+          "React",
+          "React Native",
+          "DotNet",
+          "Restful API",
+          "UI Kitten"
+        ]
       },
       {
         "name": "Yeah1 News",
-        "projectUrl": "hhttps://yeah1-news.vercel.app/",
+        "projectUrl": "https://yeah1-news.vercel.app/",
         "repoUrl": "https://github.com/chipcop106/yeah1-news",
         "imgPath": "projectMedia/yeah1-news.png",
         "imgAlt": "Synthetic news",
@@ -75,7 +127,13 @@
           "Full responsive",
           "Dark/Light mode"
         ],
-        "technologies": ["NextJS", "MongoDB", "Chakra-UI", "Strapi CMS", "GraphQL"]
+        "technologies": [
+          "NextJS",
+          "MongoDB",
+          "Chakra-UI",
+          "Strapi CMS",
+          "GraphQL"
+        ]
       },
       {
         "name": "Appnews Vietnam",
@@ -88,9 +146,21 @@
           "Microservice",
           "Setting mobile app",
           "Preview app directly",
-          "Update OTA"
+          "Cross-platform"
         ],
-        "technologies": ["React", "Apollo Graph","GraphQL", "Strapi", "MongoDB", "SocketIO", "NodeJs", "Sailjs"]
+        "technologies": [
+          "React",
+          "Apollo Graph",
+          "GraphQL",
+          "Strapi",
+          "MongoDB",
+          "SocketIO",
+          "NodeJs",
+          "Sailjs",
+          "React Native",
+          "Expo",
+          "Firebase"
+        ]
       }
     ]
   },

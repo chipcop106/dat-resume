@@ -15,7 +15,10 @@ import {
   SiNextDotJs,
   SiPostgresql,
   SiTailwindcss,
-  SiTypescript, SiTravisci, SiGithubactions
+  SiTypescript, SiTravisci, SiGithubactions,
+  SiWebpack,
+  SiBabel,
+  SiGulp
 } from 'react-icons/si';
 import {BsLightning} from 'react-icons/bs';
 
@@ -49,6 +52,10 @@ const skillLogos = {
       icon: <SiBootstrap title="Bootstrap" />,
       label: 'Bootstrap',
     },
+    {
+      icon: <SiJest title="Jest" />,
+      label: 'Jest',
+    }
   ],
   languages: [
     {
@@ -78,13 +85,17 @@ const skillLogos = {
       label: 'Git',
     },
     {
-      icon: <SiJest title="Jest" />,
-      label: 'Jest',
+      icon: <SiWebpack title="Webpack" />,
+      label: 'Webpack'
     },
     {
-      icon: <SiGithubactions title="Github Actions" />,
-      label: 'Github Actions'
-    }
+      icon: <SiGulp title="Gulp" />,
+      label: 'Gulp'
+    },
+    {
+      icon: <SiBabel title="Babel" />,
+      label: 'Babel'
+    },
   ]
 }
 

@@ -36,13 +36,14 @@ const useStyles = makeStyles((theme) => ({
   logo: {
     textDecoration: 'none !important',
     flexGrow: 1,
+    display: 'flex',
+    alignItems: 'center'
   },
   link: {
     padding: '12px 15px',
   },
   logoImg: {
     maxWidth: '100px',
-    marginTop: '1rem'
   }
 }));
 
