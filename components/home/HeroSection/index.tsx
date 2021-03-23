@@ -12,6 +12,7 @@ import { useSpring, animated } from 'react-spring';
 import HeroBackground from './HeroBackground';
 import HeroBracket from './HeroBracket';
 import ProfileImage from './ProfileImage';
+import Link from '../../Link';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,6 +39,12 @@ const useStyles = makeStyles((theme) => ({
   },
   profile: {
     marginBottom: `2rem`,
+  },
+  hiddenTitle: {
+    width: 0,
+    position: 'absolute',
+    height: 0,
+    fontSize: '1px',
   },
 }));
 
@@ -90,6 +97,9 @@ export default function Hero({ heroData: t }: { heroData: HeroData }) {
 
   return (
     <section id="home" className={classes.root}>
+      <Typography component="h2" className={classes.hiddenTitle}>
+        {t.introduction}
+      </Typography>
       {smMediaQuery && <HeroBackground color="transparent" />}
 
       <Container>
@@ -119,14 +129,14 @@ export default function Hero({ heroData: t }: { heroData: HeroData }) {
         )}
 
         <div className={classes.wrapper}>
-          <AnimateTypo variant="h5" gutterBottom style={greetingProps}>
+          <AnimateTypo component="h3" variant="h5" gutterBottom style={greetingProps}>
             <Typography variant="inherit" color="primary">
               {t.greetings}
             </Typography>
             {t.introduction}
           </AnimateTypo>
 
-          <AnimateTypo variant="h2" gutterBottom style={roleProps}>
+          <AnimateTypo variant="h3" gutterBottom style={roleProps}>
             {t.role}
           </AnimateTypo>
 
