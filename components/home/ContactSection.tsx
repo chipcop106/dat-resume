@@ -1,12 +1,9 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { useFormik, FormikHelpers } from 'formik';
-import {Lottie} from '@crello/react-lottie';
-import animationData from '../../public/animation-json/robot.json';
+import { Lottie } from '@crello/react-lottie';
 import * as Yup from 'yup';
 import { makeStyles } from '@material-ui/core/styles';
-import { Hidden } from '@material-ui/core';
-
 import {
   Container,
   Grid,
@@ -18,9 +15,11 @@ import {
   CardContent,
   IconButton,
   Avatar,
+  Hidden
 } from '@material-ui/core';
-import Link from '../Link';
 
+import Link from '../Link';
+import animationData from '../../public/animation-json/robot.json';
 
 import socialIcons from './constants/socialIcons';
 
@@ -30,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     paddingTop: theme.spacing(10),
     paddingBottom: theme.spacing(8),
-    position: 'relative'
+    position: 'relative',
   },
   divider: {
     height: '4px',
@@ -76,8 +75,8 @@ const useStyles = makeStyles((theme) => ({
   lottie: {
     position: 'absolute',
     left: `2rem`,
-    bottom: `2rem`
-  }
+    bottom: `2rem`,
+  },
 }));
 
 interface ContactData {
@@ -339,13 +338,13 @@ export default function Contact({
         />
       </Container>
       <Hidden mdDown>
-        <Lottie config={defaultOptions}
-                height={`350px`}
-                width={`350px`}
-                className={classes.lottie}
+        <Lottie
+          config={defaultOptions}
+          height="350px"
+          width="350px"
+          className={classes.lottie}
         />
       </Hidden>
-
     </section>
   );
 }

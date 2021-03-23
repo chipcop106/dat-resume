@@ -1,7 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-import { Box, Fab, Typography } from '@material-ui/core/';
-import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-import { NextLinkComposed } from '../Link';
+import { Box, Typography } from '@material-ui/core/';
 
 const useStyles = makeStyles((theme) => ({
   root: {

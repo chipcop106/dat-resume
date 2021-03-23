@@ -78,7 +78,7 @@
       },
       {
         "name": "Mona PMS - Phầm mềm quản lý dự án",
-        "projectUrl": "https://mona.media/phan-mem-quan-ly-du-an-khach-hang/",
+        "projectUrl": "https://qr-creator.com/mobi/i8soKSkottLXL8hJrNRLz89Pz0nVS87P1S8uyS9K1U8sKCjWT0ktSczMKbbPTLEFyujl5uclBhTlZ6UmlzjnZKbmlcTBzACp1gMSUCPK8kAi-iD1ugW5xfqZKYamBgamphYWxmb2ObZlmeRrhAIA",
         "repoUrl": "https://github.com/chipcop106/pmsmona",
         "imgPath": "projectMedia/mona-pms.jpg",
         "imgAlt": "Mona PMS",
@@ -98,7 +98,7 @@
       {
         "name": "Mona House - Phầm mềm quản lý phòng trọ",
         "projectUrl": "https://apps.apple.com/vn/app/mona-house/id1534988493?l=vi",
-        "repoUrl": "https://github.com/chipcop106/pmsmona",
+        "repoUrl": "https://github.com/chipcop106/MonaHouse",
         "imgPath": "projectMedia/mona-house.jpg",
         "imgAlt": "Mona house",
         "summary": "Ứng dụng web / mobile để quản lý phòng trọ cho thuê, quản lý khách hàng.",

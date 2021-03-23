@@ -8,19 +8,15 @@ import {
   SiReact,
   SiMongodb,
   SiJest,
-  SiMocha,
-  SiD3DotJs,
   SiMaterialUi,
   SiBootstrap,
   SiNextDotJs,
-  SiPostgresql,
-  SiTailwindcss,
-  SiTypescript, SiTravisci, SiGithubactions,
+  SiTypescript,
   SiWebpack,
   SiBabel,
-  SiGulp
+  SiGulp,
 } from 'react-icons/si';
-import {BsLightning} from 'react-icons/bs';
+import { BsLightning } from 'react-icons/bs';
 
 const skillLogos = {
   framework: [
@@ -55,7 +51,7 @@ const skillLogos = {
     {
       icon: <SiJest title="Jest" />,
       label: 'Jest',
-    }
+    },
   ],
   languages: [
     {
@@ -86,17 +82,17 @@ const skillLogos = {
     },
     {
       icon: <SiWebpack title="Webpack" />,
-      label: 'Webpack'
+      label: 'Webpack',
     },
     {
       icon: <SiGulp title="Gulp" />,
-      label: 'Gulp'
+      label: 'Gulp',
     },
     {
       icon: <SiBabel title="Babel" />,
-      label: 'Babel'
+      label: 'Babel',
     },
-  ]
-}
+  ],
+};
 
 export default skillLogos;

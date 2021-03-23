@@ -5,14 +5,14 @@ interface ImageProps {
   src: string;
 }
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   img: {
     width: '100%',
     height: '100%',
     objectFit: 'cover',
     borderRadius: '50%',
     userSelect: 'none',
-    pointerEvents: 'none'
+    pointerEvents: 'none',
   },
 }));
 
