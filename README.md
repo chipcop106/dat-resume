@@ -6,10 +6,6 @@
 
 A personal portfolio website that showcases my feature projects, technical skill stack, contact information and more about me.
 
-## Screenshot
-
-![Portfolio material resizer mockup (7)](https://user-images.githubusercontent.com/4708484/97511766-3d3d9b80-195e-11eb-8cd9-04fb298a81e7.jpg)
-
 ## Core dependencies
 
 - [React](https://reactjs.org/) - A Javascript library for building user interfaces.
