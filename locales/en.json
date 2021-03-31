@@ -161,6 +161,27 @@
           "Expo",
           "Firebase"
         ]
+      },
+      {
+        "name": "Desktop app - Tiki sale hunter",
+        "projectUrl": "#",
+        "repoUrl": "https://github.com/chipcop106/tiki-electron-app",
+        "imgPath": "projectMedia/tiki-electron.jpg",
+        "imgAlt": "tiki-electron",
+        "summary": "Sale hunter and multiple account manager. Desktop app built with ElectronJS.",
+        "keyFeatures": [
+          "OTA Update",
+          "Cross-platform Mac/Window/Linux",
+          "Manage multiple account",
+          "Buy / Cancel order directly"
+        ],
+        "technologies": [
+          "React",
+          "Chakra UI",
+          "Redux",
+          "Redux-saga",
+          "ElectronJS"
+        ]
       }
     ]
   },
