@@ -182,6 +182,23 @@
           "Redux-saga",
           "ElectronJS"
         ]
+      },
+      {
+        "name": "My resume website",
+        "projectUrl": "https://datblog.me",
+        "repoUrl": "https://github.com/chipcop106/dat-resume",
+        "imgPath": "projectMedia/datblog.jpg",
+        "imgAlt": "dat-blog",
+        "summary": "You are watching it....",
+        "keyFeatures": [
+          "Chakra UI",
+          "Server-side Rendering",
+          "SEO optimized"
+        ],
+        "technologies": [
+          "React",
+          "NextJS"
+        ]
       }
     ]
   },
