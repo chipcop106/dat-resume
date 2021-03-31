@@ -164,6 +164,44 @@
           "Expo",
           "Firebase"
         ]
+      },
+      {
+        "name": "Phầm mêm săn sale Tiki",
+        "projectUrl": "#",
+        "repoUrl": "https://github.com/chipcop106/tiki-electron-app",
+        "imgPath": "projectMedia/tiki-electron.jpg",
+        "imgAlt": "tiki-electron",
+        "summary": "Phần mềm săn sale và quản lý nhiều tài khoản Tiki cùng một lúc",
+        "keyFeatures": [
+          "OTA Update",
+          "Cross-platform Mac/Window/Linux",
+          "Quản lý nhiều tài khoản cùng lúc",
+          "Mua hoặc hủy đơn hàng trực tiếp trên app"
+        ],
+        "technologies": [
+          "React",
+          "Chakra UI",
+          "Redux",
+          "Redux-saga",
+          "ElectronJS"
+        ]
+      },
+      {
+        "name": "Website giới thiệu bản thân",
+        "projectUrl": "https://datblog.me",
+        "repoUrl": "https://github.com/chipcop106/dat-resume",
+        "imgPath": "projectMedia/datblog.jpg",
+        "imgAlt": "dat-blog",
+        "summary": "Trang giới thiệu về bản thân",
+        "keyFeatures": [
+          "Chakra UI",
+          "Server-side Rendering",
+          "Tối ưu SEO"
+        ],
+        "technologies": [
+          "React",
+          "NextJS"
+        ]
       }
     ]
   },

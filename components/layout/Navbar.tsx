@@ -49,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     height: 0,
     fontSize: '1px',
+    opacity: 0
   },
 }));
 

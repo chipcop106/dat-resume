@@ -1,6 +1,6 @@
 ## View project
 
-[datblog.me](https://datblog.me/)
+[dat-blog.me](https://datblog.me/)
 
 ## About the project
 
@@ -13,5 +13,4 @@ A personal portfolio website that showcases my feature projects, technical skill
 - [Material UI](https://material-ui.com/) - A React component-based design system.
 - [Formik](https://www.npmjs.com/package/formik) - An open source form library for React and React Native.
 - [Yup](https://www.npmjs.com/package/yup) - A JavaScript schema builder for value parsing and validation.
-- [SendGrid/Mail](https://www.npmjs.com/package/@sendgrid/mail) - Send emails with Javascript.
 - [React Icons](https://www.npmjs.com/package/react-icons) - Include popular icons in your React projects.

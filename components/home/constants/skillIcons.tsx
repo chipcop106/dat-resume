@@ -15,6 +15,7 @@ import {
   SiWebpack,
   SiBabel,
   SiGulp,
+  SiStrapi
 } from 'react-icons/si';
 import { BsLightning } from 'react-icons/bs';
 
@@ -23,6 +24,10 @@ const skillLogos = {
     {
       icon: <SiReact title="React" />,
       label: 'React',
+    },
+    {
+      icon: <SiReact title="React Native" />,
+      label: 'React Native',
     },
     {
       icon: <SiNextDotJs title="NextJS" />,
@@ -51,6 +56,10 @@ const skillLogos = {
     {
       icon: <SiJest title="Jest" />,
       label: 'Jest',
+    },
+    {
+      icon: <SiStrapi title="Strapi" />,
+      label: 'Strapi',
     },
   ],
   languages: [
